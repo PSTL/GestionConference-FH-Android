@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+	<featureModel chosenLayoutAlgorithm="2">
+		<struct>
+			<and abstract="true" mandatory="true" name="GestionConferenceFH">
+				<feature mandatory="true" name="Base"/>
+				<feature name="Languages"/>
+				<and name="Admin">
+					<feature mandatory="true" name="Manuel"/>
+					<feature name="Import"/>
+				</and>
+				<feature name="Calendar"/>
+			</and>
+		</struct>
+		<constraints/>
+		<calculations Auto="true" Constraints="true" Features="true" Redundant="true"/>
+		<comments/>
+		<featureOrder userDefined="false"/>
+	</featureModel>
